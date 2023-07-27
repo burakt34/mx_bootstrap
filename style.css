@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Ruda:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Ruda:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* navbar start */
+
+.navbar {
+    height: 80px;
+}
+
+.nav-item a {
+    color: #303A54;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+@media (max-width: 920px) {
+
+    .tel {
+        display: none;
+    }
+
+    .navbar-toggler {
+        z-index: 11;
+        position: fixed;
+        right: 15px;
+        top: 15px;
+    }
+
+    .hm-menu {
+        width: 100%;
+        height: 100vh;
+        background: #FF6800;
+        position: fixed;
+        padding-top: 80px;
+        top: 0px;
+        left: 0;
+        z-index: 1;
+    }
+
+    .slider {
+        background: url(img/Slider_375.svg);
+        height: 790px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .destek {
+        display: none;
+    }
+
+    .destek_mobil {
+        display: none;
+    }
+
+    .destek_des {
+        display: none;
+    }
+}
+
+/* slider */
+.slider {
+    background: url(img/Slider_1440.svg);
+    height: 790px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.slider_icerik {
+    height: 530px;
+}
+
+.slider h3 {
+    color: var(--gray-900, #18181B);
+    font-family: "Montserrat", sans-serif;
+}
+
+.slider p {
+    color: var(--body-black, #181E32);
+    font-family: Montserrat, sans-serif;
+}
+
+.slider .btn {
+    background: #FF6800;
+    height: 56px;
+
+}
+
+.slider .btn p {
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.slider_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    align-items: center;
+}
+
+
+/* lgs_egitim_paket */
+
+.lgs_egitim_paket {
+    background: var(--bacround-yellow, #FFFBF2);
+    /* height: 1640px; */
+}
+
+.lgs_paket_ust {
+    padding-top: 80px;
+}
+
+.lgs_p_icerik {
+    color: var(--body-black, #181E32);
+    font-family: Montserrat, sans-serif;
+}
+
+.lys_button button {
+    height: 48px;
+    border-radius: 12px;
+    background: var(--tertiary, #FF6800);
+    font-family: Montserrat, sans-serif;
+    border: 2px solid var(--tertiary, #FF6800);
+}
+
+.beyaz_buton button {
+    color: var(--tertiary, #FF6800);
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    background: #fff;
+    border-radius: 12px;
+    border: 2px solid var(--tertiary, #FF6800);
+    /* 114.286% */
+}
+
+
+
+
+/* Muallim X 5, 6 ve 7. Sınıflar */
+.ilkokul {
+    background: var(--bacround-light, #FAFAFA);
+}
+
+
+
+
+/* biz kimiz */
+
+.biz_kim {
+    background: var(--litle-purp, #F2DFE7);
+    padding: 80px 0;
+}
+
+.biz_kim_p {
+    color: var(--body-black, #181E32);
+    font-family: Montserrat, sans-serif;
+}
+
+
+/* ödeme planı */
+
+.odeme_plan {
+    background: var(--primary-high-light, #EBEEFF);
+    padding: 80px 0;
+    font-family: Manrope, sans-serif;
+}
+
+.odeme_bas {
+    font-family: Montserrat, sans-serif;
+}
+
+.toggle_ball {
+    height: 20px;
+}
+
+.odeme_button {
+    background: inherit;
+    border-radius: 12px;
+    border: 2px solid var(--tertiary, #FF6800);
+    color: var(--tertiary, #FF6800);
+}
+
+/* .odeme_plan_list {
+    width: 358px;
+} */
+
+/* destek */
+
+
+
+
+/* sss */
+
+.sss {
+    font-family: Montserrat, sans-serif;
+}
+
+/* makaleler */
+.makaleler {
+    font-family: Montserrat, sans-serif;
+}
+
+.makale_main {
+    background: var(--litle-purp, #F2DFE7);
+}
+
+/* iletisim form */
+
+.iletisim_form {
+    font-family: Montserrat, sans-serif;
+    background: var(--bacround-yellow, #FFFBF2);
+}
+
+.iletisim_form_input input::placeholder {
+    color: #64748b71 !important;
+}
+
+.iletisim_form_input input:focus {
+    border:  1.5px solid #CF5400 !important;
+    outline:  1.5px solid #CF5400 !important;
+}
+
+.txt_area:focus {
+    border:  1.5px solid #CF5400;
+    outline:  1.5px solid #CF5400;
+}
+
+/* footer */
+
+
+.footer {
+    background: var(--blue, #1B5EC9);
+    height: 72px;
+}
+
+.footer_mid li a {
+    color: #FFF !important;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.048px;
+}
+
+.footer_button button {
+    border-radius: 16px;
+    background: var(--tertiary, #FF6800);
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+
+    line-height: 24px;
+    border: 2px solid #FF6800;
+
+}
+
+button:hover {
+    color: #fff !important;
+    background: #CF5400 !important;
+    border: 2px solid #CF5400 !important;
+    transition: .5 ease all;
+}
+
+@media (max-width: 720px) {
+    .slider {
+        background: url(img/Slider_375.svg);
+        height: 790px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+}
